@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+
+}
+
+header{
+    padding: 7px;
+    border-top: 4px solid red;
+    background: #3c373742;
+}
+
+.nav-bar{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 50%;
+}
+.logo h3{
+    font-size: 19px;
+}
+.logo h3 a{
+	color: #000000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 900;
+	padding: 10px 30px;
+	display: block;
+}
+nav{
+    width: 50%;
+    background: #5a5a5a;
+    border-radius: 25px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+	list-style: none;
+	font-size: 18px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 400;
+	padding: 12px 30px;
+	display: block;
+	border-radius: 30px;
+	font-size: 16px;
+}
+nav ul li a:hover{
+    background: #151312;
+    color: #ffffff;
+}
+.btn{
+    background: red;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+.banner{
+	background: url(../images/banner.jpg);
+	height: 90vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container{
+    width: 1060px;
+    margin: auto;
+    padding-top: 320px;
+}
+h1{
+    color: white;
+    font-size: 30px;
+    font-weight: 200;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+p{
+    color: white;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+span{
+	color: red;
+}
+.btn-1{
+    background: red;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 30px;
+    font-size: 16px;
+}
+.btn-1:hover{
+    background: #151312;
+    color: #ffffff;
+    border: 1px solid white;
+}
