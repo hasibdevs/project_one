@@ -30,7 +30,7 @@ header{
 	text-transform: uppercase;
 	font-weight: 900;
 	padding: 10px 30px;
-	display: block;
+	display: inline-block;
 }
 nav{
     width: 50%;
